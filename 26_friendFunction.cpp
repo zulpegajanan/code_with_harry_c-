@@ -17,6 +17,11 @@ class complex{
     public:
         friend complex sumcomplex(complex o1, complex o2);
         //HERE WE HAVE SHOWN FUNCTION SUMCOMPLEX IS FRIEND OF THIS CLASS THATS WHY FRIEND FUNCTION CAN ACCESS ALL THE CONTAIN IN THE CLASS ALSO PRIVATE DATA
+        //simillarly we can define other class as FRIEND CLASS Like
+        //friend class class_name;
+    
+        //friend declare within class not depend on class
+    
         void setNumber(int n1,int n2){
             a=n1;
             b=n2;
