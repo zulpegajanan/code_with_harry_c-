@@ -1,5 +1,9 @@
 #include <iostream>
 using namespace std;
+//AMBIGUITY RESOLUTION  OCCURED WHEN NEW CLASS IS GENERATED FROM 2 CLASS'S BUT WHAT HAPPEN WHEN BOTH THE CLASSES HAVING SAME FUNCTION we need to resolve it.
+A     B
+ \   /
+   C
 
 
 class parent1{
