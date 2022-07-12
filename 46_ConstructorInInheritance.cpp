@@ -6,6 +6,38 @@
 
 // *******************************************************************************/
 
+
+
+
+
+
+
+/*
+Case1:
+class B: public A{
+   // Order of execution of constructor -> first A() then B()
+};
+
+Case2:
+class A: public B, public C{
+    // Order of execution of constructor -> B() then C() and A()
+};
+
+Case3:
+class A: public B, virtual public C{
+    // Order of execution of constructor -> C() then B() and A()
+};
+
+*/
+
+
+
+
+
+
+
+
+
 // #include <iostream>
 
 // using namespace std;
